@@ -6,3 +6,6 @@ pandas
 numpy
 streamlit
 sklearn
+pickle
+seaborn
+matplotlib
