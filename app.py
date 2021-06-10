@@ -26,10 +26,10 @@ def main():
         </div>
         """
     st.markdown(html_temp,unsafe_allow_html=True)
-    GREScore=st.text_input("GRE Score","Type here")
-    TOEFLScore=st.text_input("TOEFL Score","Type here")
-    UniversityRating=st.text_input("University Rating","Type here")
-    CGPA=st.text_input("CGPA","Type here")
+    GREScore=st.text_input("GRE Score(0-340)","Type here")
+    TOEFLScore=st.text_input("TOEFL Score(0-120)","Type here")
+    UniversityRating=st.text_input("University Rating(1-5)","Type here")
+    CGPA=st.text_input("CGPA(1-10)","Type here")
     result=""
     if st.button("Predict"):
         result=predict_chance(GREScore, TOEFLScore, UniversityRating, CGPA)
