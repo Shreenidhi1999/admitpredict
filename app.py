@@ -29,7 +29,7 @@ def main():
     GREScore=st.text_input("GRE Score(0-340)")
     TOEFLScore=st.text_input("TOEFL Score(0-120)")
     UniversityRating=st.text_input("University Rating(1-5)")
-    CGPA=st.text_input("CGPA(1-10)","Type here")
+    CGPA=st.text_input("CGPA(1-10)")
     result=""
     if st.button("Predict"):
         result=predict_chance(GREScore, TOEFLScore, UniversityRating, CGPA)
