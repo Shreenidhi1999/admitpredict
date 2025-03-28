@@ -13,7 +13,7 @@ dash_chartjs==0.0.8
 dash_daq==0.5.0
 dash_uploader==0.6.0
 Flask==1.1.1
-gunicorn==21.2.0
+gunicorn==23.0.0
 itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
